@@ -347,7 +347,7 @@ await client.collection('docs').documents.create(document);
   <template v-slot:Java>
 
 ```java
-HaashMap<String, Object> document = new HashMap<>();
+HashMap<String, Object> document = new HashMap<>();
 float[] embedding =  {0.04, 0.234, 0.113, 0.001}
 
 document.add("title", "Louvre Museuem");
